@@ -32,8 +32,3 @@ app.get("/form",(req,res)=>{
     
     res.render('form.ejs')
 })
-
-
-app.listen(3000,()=>{
-    console.log("listining to the port")
-})
